@@ -1,4 +1,4 @@
-rsrc0004
+Pelles C IDE Chinese resources
 ========
 
-Pelles C for Windows, Chinese Resource
+see http://wiki.pellesc.de/doku.php/translating

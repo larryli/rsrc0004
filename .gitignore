@@ -3,10 +3,13 @@
 *.ko
 *.obj
 *.elf
+*.res
 
 # Precompiled Headers
 *.gch
 *.pch
+*.ppx
+*.tag
 
 # Libraries
 *.lib

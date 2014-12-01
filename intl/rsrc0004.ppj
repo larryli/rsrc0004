@@ -23,17 +23,17 @@ LINKFLAGS = -subsystem:windows -machine:x86 -dll -noentry#
 SIGNFLAGS = -timeurl:http://timestamp.verisign.com/scripts/timstamp.dll -location:CU -store:MY -errkill#
 
 # 
-# Build rsrc0009.dll.
+# Build rsrc0004.dll.
 # 
-rsrc0009.dll: \
-	output\eng.res
+rsrc0004.dll: \
+	output\chs.res
 	$(LINK) $(LINKFLAGS) -out:"$@" $**
 
 # 
 # Build eng.res.
 # 
-output\eng.res: \
-	eng.rc \
+output\chs.res: \
+	chs.rc \
 	..\ids.h \
 	banner.png \
 	welcome.htm
